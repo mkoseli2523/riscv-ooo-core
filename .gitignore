@@ -1,0 +1,12 @@
+!.gitignore
+!mp_setup
+!mp_verif
+!mp_pipeline
+!mp_cache
+!mp_cache_sm
+!mp_cache_pp
+!mp_bp
+!mp_ooo
+**/.vscode
+**/.DS_Store
+**/.nfs*
