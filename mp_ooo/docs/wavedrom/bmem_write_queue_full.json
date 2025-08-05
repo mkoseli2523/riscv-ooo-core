@@ -1,0 +1,10 @@
+{signal:
+  [
+    {name: "clk"    , wave: "p.........|....."},
+    {name: "addr"   , wave: "x8...9...4|....x", data: ["A", "B", "C"]},
+    {name: "write"  , wave: "01........|....0"},
+    {name: "wdata"  , wave: "x888899994|.444x", data: ["M[A]", "M[A]", "M[A]", "M[A]", "M[B]", "M[B]", "M[B]", "M[B]", "M[C]", "M[C]", "M[C]", "M[C]"]},
+    {name: "ready"  , wave: "1........0|1...."}
+  ],
+  config: { hscale: 1 }
+}

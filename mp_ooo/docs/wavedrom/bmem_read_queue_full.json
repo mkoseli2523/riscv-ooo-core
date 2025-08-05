@@ -1,0 +1,13 @@
+{signal:
+  [
+    {name: "clk"    , wave: "p...|..|.....|.....|....."},
+    {name: "addr"   , wave: "x567|.x|.....|.....|.....", data: ["A", "B", "C"]},
+    {name: "read"   , wave: "01..|.0|.....|.....|....."},
+    {name: "ready"  , wave: "1..0|10|.1...|.....|....."},
+    {},
+    {name: "raddr"  , wave: "x...|..|5...x|6...x|7...x", data: ["A", "B", "C"]},
+    {name: "rdata"  , wave: "x...|..|5555x|6666x|7777x", data: ["M[A]", "M[A]", "M[A]", "M[A]", "M[B]", "M[B]", "M[B]", "M[B]", "M[C]", "M[C]", "M[C]", "M[C]"]},
+    {name: "rvalid" , wave: "0...|..|1...0|1...0|1...0"}
+  ],
+  config: { hscale: 1 }
+}

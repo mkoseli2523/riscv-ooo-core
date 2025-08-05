@@ -1,0 +1,10 @@
+waive -rule {{WarnAnalyzeBBox}}  -comment {Design Unit '' does not have functional view in any of the given sglib files}
+waive -rule {{NoAssignX-ML}}     -comment {RHS of a assignment contains 'X}
+waive -rule {{STARC05-2.11.3.1}} -comment {FSM must be split into always_ff and always_comb}
+waive -rule {{FlopEConst}}       -comment {Flip-flop enable pin is permanently disabled or enabled}
+waive -rule {{W528}}             -comment {Variable set but not read}
+waive -rule {{STARC05-2.2.3.3}}  -comment {multiple assignment in always_ff}
+waive -rule {{W287b}}            -comment {output of a instance not connected}
+waive -rule {{W415a}}            -comment {multiple assignment in always_comb}
+waive -rule {{ErrorAnalyzeBBox}} -comment {Design Unit '%s' has no definition; black-box behavior assumed and module interface inferred}
+waive -rule {{SYNTH_5166}}       -comment {Non-synthesizable statement ignored}

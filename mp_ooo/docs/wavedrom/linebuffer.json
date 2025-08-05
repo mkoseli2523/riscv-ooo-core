@@ -1,0 +1,10 @@
+{signal:
+  [
+    {name: "clk"  , wave: "p...|...|..."},
+    {name: "addr" , wave: "x5.x|56x|7.x", data: ["A1", "A1", "A2", "B1"]},
+    {name: "rmask", wave: "05.0|560|7.0"},
+    {name: "rdata", wave: "x.5x|56x|.7x", data: ["M[A1]", "M[A1]", "M[A2]", "M[B1]"]},
+    {name: "resp" , wave: "0.10|1.0|.10"}
+  ],
+  config: { hscale: 2 }
+}
